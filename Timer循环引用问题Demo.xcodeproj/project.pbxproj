@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1479F91C1EDD2E00071BDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1479F81C1EDD2E00071BDB /* main.m */; };
+		DB1479FC1C1EDD2E00071BDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1479FB1C1EDD2E00071BDB /* AppDelegate.m */; };
+		DB1479FF1C1EDD2E00071BDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1479FE1C1EDD2E00071BDB /* ViewController.m */; };
+		DB147A021C1EDD2E00071BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB147A001C1EDD2E00071BDB /* Main.storyboard */; };
+		DB147A041C1EDD2E00071BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB147A031C1EDD2E00071BDB /* Assets.xcassets */; };
+		DB147A071C1EDD2E00071BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB147A051C1EDD2E00071BDB /* LaunchScreen.storyboard */; };
+		DB147A101C1EDD7200071BDB /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB147A0F1C1EDD7200071BDB /* TestVC.m */; };
+		DB147A131C1EDF1E00071BDB /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = DB147A121C1EDF1E00071BDB /* NSTimer+Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1479F41C1EDD2E00071BDB /* Timer循环引用问题Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer循环引用问题Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1479F81C1EDD2E00071BDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1479FA1C1EDD2E00071BDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1479FB1C1EDD2E00071BDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1479FD1C1EDD2E00071BDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1479FE1C1EDD2E00071BDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB147A011C1EDD2E00071BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB147A031C1EDD2E00071BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB147A061C1EDD2E00071BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB147A081C1EDD2E00071BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB147A0E1C1EDD7200071BDB /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		DB147A0F1C1EDD7200071BDB /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		DB147A111C1EDF1E00071BDB /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		DB147A121C1EDF1E00071BDB /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1479F11C1EDD2E00071BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1479EB1C1EDD2E00071BDB = {
+			isa = PBXGroup;
+			children = (
+				DB1479F61C1EDD2E00071BDB /* TestDemo601 */,
+				DB1479F51C1EDD2E00071BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1479F51C1EDD2E00071BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1479F41C1EDD2E00071BDB /* Timer循环引用问题Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1479F61C1EDD2E00071BDB /* TestDemo601 */ = {
+			isa = PBXGroup;
+			children = (
+				DB1479FA1C1EDD2E00071BDB /* AppDelegate.h */,
+				DB1479FB1C1EDD2E00071BDB /* AppDelegate.m */,
+				DB1479FD1C1EDD2E00071BDB /* ViewController.h */,
+				DB1479FE1C1EDD2E00071BDB /* ViewController.m */,
+				DB147A001C1EDD2E00071BDB /* Main.storyboard */,
+				DB147A031C1EDD2E00071BDB /* Assets.xcassets */,
+				DB147A051C1EDD2E00071BDB /* LaunchScreen.storyboard */,
+				DB147A081C1EDD2E00071BDB /* Info.plist */,
+				DB1479F71C1EDD2E00071BDB /* Supporting Files */,
+				DB147A0E1C1EDD7200071BDB /* TestVC.h */,
+				DB147A0F1C1EDD7200071BDB /* TestVC.m */,
+				DB147A111C1EDF1E00071BDB /* NSTimer+Block.h */,
+				DB147A121C1EDF1E00071BDB /* NSTimer+Block.m */,
+			);
+			path = TestDemo601;
+			sourceTree = "<group>";
+		};
+		DB1479F71C1EDD2E00071BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1479F81C1EDD2E00071BDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1479F31C1EDD2E00071BDB /* Timer循环引用问题Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB147A0B1C1EDD2E00071BDB /* Build configuration list for PBXNativeTarget "Timer循环引用问题Demo" */;
+			buildPhases = (
+				DB1479F01C1EDD2E00071BDB /* Sources */,
+				DB1479F11C1EDD2E00071BDB /* Frameworks */,
+				DB1479F21C1EDD2E00071BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer循环引用问题Demo";
+			productName = TestDemo601;
+			productReference = DB1479F41C1EDD2E00071BDB /* Timer循环引用问题Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1479EC1C1EDD2E00071BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "钟宝健";
+				TargetAttributes = {
+					DB1479F31C1EDD2E00071BDB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DB1479EF1C1EDD2E00071BDB /* Build configuration list for PBXProject "Timer循环引用问题Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1479EB1C1EDD2E00071BDB;
+			productRefGroup = DB1479F51C1EDD2E00071BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1479F31C1EDD2E00071BDB /* Timer循环引用问题Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1479F21C1EDD2E00071BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB147A071C1EDD2E00071BDB /* LaunchScreen.storyboard in Resources */,
+				DB147A041C1EDD2E00071BDB /* Assets.xcassets in Resources */,
+				DB147A021C1EDD2E00071BDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1479F01C1EDD2E00071BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB147A101C1EDD7200071BDB /* TestVC.m in Sources */,
+				DB147A131C1EDF1E00071BDB /* NSTimer+Block.m in Sources */,
+				DB1479FF1C1EDD2E00071BDB /* ViewController.m in Sources */,
+				DB1479FC1C1EDD2E00071BDB /* AppDelegate.m in Sources */,
+				DB1479F91C1EDD2E00071BDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB147A001C1EDD2E00071BDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB147A011C1EDD2E00071BDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB147A051C1EDD2E00071BDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB147A061C1EDD2E00071BDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB147A091C1EDD2E00071BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB147A0A1C1EDD2E00071BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB147A0C1C1EDD2E00071BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = TestDemo601/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joiway.TestDemo601;
+				PRODUCT_NAME = "Timer循环引用问题Demo";
+			};
+			name = Debug;
+		};
+		DB147A0D1C1EDD2E00071BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = TestDemo601/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joiway.TestDemo601;
+				PRODUCT_NAME = "Timer循环引用问题Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1479EF1C1EDD2E00071BDB /* Build configuration list for PBXProject "Timer循环引用问题Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB147A091C1EDD2E00071BDB /* Debug */,
+				DB147A0A1C1EDD2E00071BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB147A0B1C1EDD2E00071BDB /* Build configuration list for PBXNativeTarget "Timer循环引用问题Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB147A0C1C1EDD2E00071BDB /* Debug */,
+				DB147A0D1C1EDD2E00071BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1479EC1C1EDD2E00071BDB /* Project object */;
+}
