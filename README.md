@@ -6,6 +6,7 @@ NSTimer 内存泄露问题解决Demo，将原来的定时方法调用放到了bl
 self.timer1 = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(countDown1:) userInfo:nil repeats:YES];
 
 // 问题解决方案
+// weakSelf 和 strongSelf 很关键，用来解决block的循环引用问题
 __weak __typeof(&*self) weakSelf = self;
 self.timer2 = [NSTimer bk_scheduledTimerWithTimeInterval:1.0 block:^{
 
